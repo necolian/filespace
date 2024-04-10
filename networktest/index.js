@@ -1,3 +1,5 @@
+alert("js loaded.");
+
 //getリクエスト
 const post = new XMLHttpRequest();
 post.open(GET,"https://httbin.org");
