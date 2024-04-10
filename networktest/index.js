@@ -1,3 +1,6 @@
+function post(){
+	
+	
 alert("js loaded.");
 
 //getリクエスト
@@ -17,4 +20,7 @@ post.onreadystatechange = function() {
 
 	}
  
+}
+
+
 }
