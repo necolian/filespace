@@ -4,7 +4,7 @@ function post(){
 alert("js loaded.");
 
 //getリクエスト
-const post = new XMLHttpRequest();
+var post = new XMLHttpRequest();
 post.open(GET,"https://httbin.org");
 post.send();
 
